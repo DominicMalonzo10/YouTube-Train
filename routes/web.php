@@ -21,8 +21,6 @@ Route::get('/kahitano', function () {
     return view('dmnc');
 });
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Route::get('/homer', [App\Http\Controllers\HomeController::class, 'index'])->name('homer');
