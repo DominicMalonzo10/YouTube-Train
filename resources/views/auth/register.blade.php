@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.yuchub')
 
 @section('content')
 <div class="container">

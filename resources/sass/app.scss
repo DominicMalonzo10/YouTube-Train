@@ -20,6 +20,11 @@
     outline: none;
 }
 
+.container{
+    height: 1280px;
+    width: 720px;
+
+}
 body{
     position: relative;
     background: #f0f0f0;
@@ -165,19 +170,17 @@ body{
 }
 
 .video-container{
-    width: calc(100% - 250px);
     margin-top: 10px;
     margin-left: 250px;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 35%);
-    grid-gap: 20px 5px;
     overflow-x: hidden;
+    height: 550px;
+
 }
 
 .video{
     min-height: 250px;
-    height: 100px;
 }
 
 .thumbnail{
@@ -213,13 +216,3 @@ body{
     margin: 2px 0;
     color: #979797;
 }
-
-.grid{
-    display: grid;
-    height: 400px;
-    width: 500px;
-    align-content: space-evenly;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    padding: 10px;
-  }

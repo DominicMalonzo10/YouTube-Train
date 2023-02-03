@@ -66,21 +66,7 @@
     <a href="#" class="links"><img src="{{asset ('image')}}/show more.png" alt="">show more</a>
     </div>
 
-    <div>
-    <div class="video-container grid">
-    <div class="video">
-        <img src="{{asset ('image')}}/motion-sickness.png" class="thumbnail" alt="">
-        <div class="content">
-            <img src="{{asset ('image')}}/profile-pic.jpg" class="channel-icon" alt="">
-            <div class="info">
-                <h4>Motion Sickness - Official Music Video</h4>
-                <p class="channel-name">Neck Deep</p>
-            </div>
-        </div>
-    </div>    
-    </div>
-    
-    </div>
+   
 </nav>
 
 </body>
